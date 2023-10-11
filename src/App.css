@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-image: url('./image/img4.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+ 
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  /* border:10px solid red; */
+  border-radius: 50px;
+  margin-top: 26%;
+  margin-left: 10%;
+  height: 500px;
+  width: 500px;
+  padding: 30px;
+  /* background-color: rgb(120, 116, 73); */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 85vh;
+  
+}
+.center-container{
+  top: 50;
+  height: 500px;
+  width: 550px;
+}
+.app-heading{
+  padding: 4px;
+  color: black;  
+  text-decoration: underline;
+  margin-left: 43%;
+ 
+  font-family: poppins;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 3em;
+}
+.input-container{
+  display: flex;
+  justify-content: center;
+  
+}
+.input-box-todo{
+  margin-left: 10px;
+  
+  width: 70%;
+  height: 40px;
+  border-radius: 24px;
+  border:1px solid black;
+  padding-left: 10px;  
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+  outline: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+}
+.add-btn{
+  width:40px;
+  height:40px;
+  border-radius: 50%;
+  border:none;
+  background-color:#316fc1;
   color: white;
+  font-weight: bolder;
+  font-size: larger;
+  margin-left: 10px;  
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(11, 10, 10, 0.3);
+  transition: 0.3s;
+}
+.add-btn:active{
+  box-shadow: none;
+}
+.list-container{
+ 
+  align-items: center;
+  margin-top: 5px;
+}
+.list-item{
+  background-color: white;
+  border:5px solid rgb(161, 158, 158);
+  color:black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding:3px;
+  padding-left: 5px;
+  border-radius: 5px;
+  width: 80%;
+  margin-top: 10px;
+  position: relative;
+}
+.icons{
+  position: absolute;
+  right: -50px;
+  color: aliceblue;
+  font-size: 1.5em;
+}
+.background-section {
+  background-image: url('./image/img3.jpg'); /* Use the imported image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent background repetition */
+  background-position: center; 
+  height:100vh;
+  width: 100vw;
+  
+ 
+}
+.weather-container{
+  display: flex;
+  
+}
+.weather-card{
+ 
+  border-radius: 50px;
+  margin-right: 30%;
+  
+  height: 600px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.background-section3{
+  background-image: url('./image/img6.jpeg'); /* Use the imported image */
+  background-size: cover; /* Adjust the background size as needed */
+  background-repeat: no-repeat; /* Prevent background repetition */
+  background-position: center; 
+  height:100vh;
+  width: 100vw;
+  opacity: 0.76;
 }
