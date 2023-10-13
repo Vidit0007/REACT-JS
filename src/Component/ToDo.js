@@ -17,6 +17,7 @@ function ToDo(props) {
           type="text"
           className="input-box-todo"
           placeholder="Write here....."
+          value={inputText}
           onChange={handleInput}
         />
         <button className="add-btn" onClick={newHandle}>

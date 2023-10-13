@@ -27,10 +27,10 @@ function App() {
   }
   return (
     <>
-    {/* <div>
+     {/* <div>
       <Name />
-    </div>
-    <div>
+    </div> */}
+    {/*<div>
       <BACK />
     </div> */}
     <section>
