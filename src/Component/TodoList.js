@@ -5,13 +5,17 @@ function TodoList(props) {
   return (
     <li className="list-item">
       {props.item}
+      
       <span className="icons">
+      
         <FaTrash
           className="i"
           onClick={(e) => {
             props.deleteItem(props.index);
           }}
+          
         />
+        {props.index}
       </span>
     </li>
   );

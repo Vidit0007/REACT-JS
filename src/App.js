@@ -1,5 +1,5 @@
 // import BACK from './Component/BACK';
-// import Name from './Component/Name';
+import Name from './Component/Name';
 import React, {useState} from 'react';
 import ToDo from './Component/ToDo';
 import TodoList from './Component/TodoList';
@@ -10,6 +10,7 @@ import './image/weather.jpg';
 
 import './App.css';
 import TicTac from './Component/TicTac';
+import Form from './Component/Form';
 
 
 
@@ -27,9 +28,7 @@ function App() {
   }
   return (
     <>
-     {/* <div>
-      <Name />
-    </div> */}
+     
     {/*<div>
       <BACK />
     </div> */}
@@ -64,9 +63,20 @@ function App() {
       <TicTac />
     </div>
    </section>
+   <section className="background-section4">
+   <div>
+      <Form />
+     </div>
+     <div>
+      <Name />
+    </div>
+   </section>
+    
      
-    </>
-
+     
+    
+    
+</>
   );
 }
 
