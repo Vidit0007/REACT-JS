@@ -1,38 +1,39 @@
 // import BACK from './Component/BACK';
-import Name from './Component/Name';
-import React, {useState} from 'react';
-import ToDo from './Component/ToDo';
-import TodoList from './Component/TodoList';
+// import Name from './Component/Name';
+// import React, {useState} from 'react';
+// import ToDo from './Component/ToDo';
+// import TodoList from './Component/TodoList';
 // import Fetch from './Component/Fetch';
-import Weather from './Component/Wheather';
+// import Weather from './Component/Wheather';
 
-import './image/weather.jpg';
-
+// import './image/weather.jpg';
+import Counter from './Component/Counter';
+import MockApi from './Component/MockApi';
 import './App.css';
-import TicTac from './Component/TicTac';
-import Form from './Component/Form';
+// import TicTac from './Component/TicTac';
+// import Form from './Component/Form';
 
 
 
 function App() {
-  const [listTodo,setListTodo]=useState([]);
+  // const [listTodo,setListTodo]=useState([]);
 
-  const addList=(inpuText)=>{
-    if(inpuText!=='')
-    setListTodo([...listTodo,inpuText])
-  }
-  const deleteListItem=(key)=>{
-    let newListTodo=[...listTodo]
-    newListTodo.splice(key,1)
-    setListTodo([...newListTodo])
-  }
+  // const addList=(inpuText)=>{
+  //   if(inpuText!=='')
+  //   setListTodo([...listTodo,inpuText])
+  // }
+  // const deleteListItem=(key)=>{
+  //   let newListTodo=[...listTodo]
+  //   newListTodo.splice(key,1)
+  //   setListTodo([...newListTodo])
+  // }
   return (
     <>
      
     {/*<div>
       <BACK />
     </div> */}
-    <section>
+    {/* <section>
       
      <h1 className='app-heading'>TODO-APP</h1>
         <br/>
@@ -70,6 +71,16 @@ function App() {
      <div>
       <Name />
     </div>
+   </section> */}
+   <section>
+     <div>
+      <Counter />
+     </div>
+   </section>
+   <section>
+     <div>
+      <MockApi />
+     </div>
    </section>
     
      
