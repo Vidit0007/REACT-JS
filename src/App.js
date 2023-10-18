@@ -82,8 +82,7 @@ function App() {
       <MockApi />
      </div>
    </section>
-    
-     
+  
      
     
     

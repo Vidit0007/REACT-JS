@@ -87,13 +87,17 @@ function TicTac() {
         </div>
       </div>
       <div className="reset-button">
+        <img src></img>
         <button className="reset-button2" onClick={resetGame}>Reset Game</button>
       </div>
     </div>
     </>
     
+
+   
   );
 }
 
 export default TicTac;
+
 
