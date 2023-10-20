@@ -7,11 +7,13 @@
 // import Weather from './Component/Wheather';
 
 // import './image/weather.jpg';
-import Counter from './Component/Counter';
-import MockApi from './Component/MockApi';
+// import Counter from './ASSIGNMENTS/COUNTER/Counter';
+// import MockApi from './ASSIGNMENTS/FETCH API/MockApi';
 import './App.css';
 // import TicTac from './Component/TicTac';
-// import Form from './Component/Form';
+// import Form from './ASSIGNMENTS/Form';
+// import NASAAPOD from './ASSIGNMENTS/FETCH API/NASAAPOD';
+import Pagination from './ASSIGNMENTS/PAGINATION/Pagination';
 
 
 
@@ -27,6 +29,21 @@ function App() {
   //   newListTodo.splice(key,1)
   //   setListTodo([...newListTodo])
   // }
+  const data = [
+    'Item 1',
+    'Item 2',
+    'Item 3',
+    'Item 4',
+    'Item 5',
+    'Item 6',
+    'Item 7',
+    'Item 8',
+    'Item 9',
+    'Item 10',
+   
+  ];
+
+  const itemsPerPage = 3;
   return (
     <>
      
@@ -65,23 +82,35 @@ function App() {
     </div>
    </section>
    <section className="background-section4">
-   <div>
-      <Form />
-     </div>
+   
      <div>
       <Name />
     </div>
    </section> */}
-   <section>
+   {/* <section>
      <div>
       <Counter />
      </div>
-   </section>
-   <section>
+   </section> */}
+   {/* <section>
      <div>
       <MockApi />
      </div>
-   </section>
+     <div>
+      <Form />
+     </div>
+   </section> */}
+   {/* <section>
+     <div>
+      <NASAAPOD />
+     </div>
+   </section> */}
+   
+     <div className='heading'>
+     <h1 >Paginated Data</h1>
+      <div className='page'><Pagination data={data} itemsPerPage={itemsPerPage} /></div>
+      
+     </div>
   
      
     

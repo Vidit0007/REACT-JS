@@ -1,0 +1,22 @@
+.pagination-controls{
+    
+   
+    margin-top: 20%;
+
+}
+.heading {
+    font-size: 2em;
+    
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+.page{
+  
+    margin-top: 5%; 
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60%;
+}

@@ -1,0 +1,29 @@
+.nasa-apod-image {
+    width: 100vw;
+    height: 300vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  }
+.title{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: monospace;
+}
+.date{
+    color: aliceblue;
+    font-size: 2em;
+    font-family: monospace;
+}
+.explanation{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    font-family: monospace;
+    border: 3px solid white;
+}
