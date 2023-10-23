@@ -19,7 +19,8 @@
     font-size: 2em;
     font-family: monospace;
 }
-.explanation{
+.explain{
+    color: white;
     text-align: center;
     justify-content: center;
     align-items: center;

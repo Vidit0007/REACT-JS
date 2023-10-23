@@ -83,11 +83,11 @@ function Counter() {
       <div className='container'>
         <h1 className={textClass}>HERE IS MY COUNTER: {counter}</h1>
         <button className='b1' onClick={handleIncreasingCounter}>+</button>
-        <button className='b1' onClick={handleDecreasingCounter}>
--</button>
+        <button className='b1' onClick={handleDecreasingCounter}>-</button>
       </div>
     </>
   );
 }
 
 export default Counter;
+

@@ -21,19 +21,20 @@ function Pagination({ data, itemsPerPage }) {
 
   return (
     <div>
-      
+      <div className='app'>
       {currentData.map((item, index) => (
-        <div key={index}>{item}</div>
+        <div className='item' key={index}>{item}</div>
       ))}
-
-     
+      </div>
+      
       <div className="pagination-controls">
-        <button onClick={() => handlePageChange(currentPage - 1)}>Previous</button>
+        <button className='btn' onClick={() => handlePageChange(currentPage - 1)}>Previous</button>
         <span>Page {currentPage} of {totalPages}</span>
-        <button onClick={() => handlePageChange(currentPage + 1)}>Next</button>
+        <button className='btn' onClick={() => handlePageChange(currentPage + 1)}>Next</button>
       </div>
     </div>
       );
       }
 
 export default Pagination;
+

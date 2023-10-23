@@ -28,7 +28,7 @@ function Form() {
     setPassword(e.target.value)
   return (
     <>
-    <div className='contain'>
+    <div className='contain00'>
     <form onSubmit = {handleSubmit} className='FORM1'>
         <div >
         <label>Username: </label>
